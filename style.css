@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+body {
+  background: linear-gradient(#0b0b0b, #0d0d0fde),
+    url(/images/pexels.jpg) top center no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  height: 100%;
+
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+form {
+  /* width: 20vw; */
+  width: 20%;
+  margin-top: 20%;
+  margin-left: 37%;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: rgb(235, 244, 235);
+  border-bottom: 4px solid green;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.demo {
+  color: white;
+  border-bottom: 3px solid green;
+  margin-bottom: 20px;
+}
+input {
+  border: 0;
+  background: transparent;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  color: white;
+  background: transparent;
+  border-radius: 8px;
+  border: 2px solid green;
+  width: 100%;
+  height: 35px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+input:hover,
+:focus {
+  font-weight: bold;
+}
